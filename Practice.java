@@ -30,7 +30,6 @@ public class Practice {
         HttpResponse<String> response = httpClient.send(request, BodyHandlers.ofString());
         //response.body is the string of info
         // for(int i = 0; i <response.body().length(); i++ ){
-
         // }
         
         System.out.println(response.body());
