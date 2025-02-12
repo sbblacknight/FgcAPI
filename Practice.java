@@ -29,6 +29,7 @@ public class Practice {
 
         HttpResponse<String> response = httpClient.send(request, BodyHandlers.ofString());
         //response.body is the string of info
+        //add a way to only display first line of information, use Puddlefarm git as example
         // for(int i = 0; i <response.body().length(); i++ ){
         // }
         
