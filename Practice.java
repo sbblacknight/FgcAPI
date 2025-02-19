@@ -7,6 +7,8 @@ import java.net.http.HttpResponse.BodyHandlers;
 import java.util.concurrent.CompletableFuture;
 import java.util.Scanner;
 
+//Learn how to parse JSON in java
+
 public class Practice {
     //Here is URL to check https://puddle.farm/api/player/240709011949023356
     //READ THROUGH API.YOML to see if there's anything else I can do
